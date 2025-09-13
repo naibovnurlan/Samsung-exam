@@ -3,9 +3,114 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.container{
-    background-image: url(images/HOME_TS11_Hero-KV_1920x1080_pc.webp);
-    width: 100%;
-    height: 100vh;
-    padding-inline: 50px;
+a{
+    color: inherit;
+    text-decoration: none;    
 }
+ul{
+    list-style: none;
+}
+.container{
+    width: 95%;
+    height: 100vh;
+    position:relative;
+    color:white;
+    background-image: url(images/HOME_TS11_Hero-KV_1920x1080_pc.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0px auto;
+}
+ 
+.container .nav1 ul{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    display: flex;
+}
+.linav1{
+    padding: 20px;
+}
+.nav2{
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    display: flex;
+}
+.nav2 ul{
+    display: flex;
+    padding-left: 30px;
+    font-weight: 700;
+}
+.nav2 ul li{
+    padding-left: 30px;
+}
+.nav2 ul li:nth-child(8) {
+    border: 0.5px solid;
+    border-radius: 40px;
+    margin:-10px 0px 0px 230px;
+    padding: 10px 100px 10px 10px;
+    font-size: 20px;
+    background-color:rgba(245, 241, 241, 0.2) ;
+}
+nav2 ul li:nth-child(9){
+    font-size: 20px;
+}
+nav2 ul li:nth-child(10){
+    font-size: 20px;
+}
+.sam{
+    font-size: 30px;
+    margin-top: -10px;
+    font-weight: 800;
+}
+.headerlinks ul{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    display: flex;
+}
+.adef {
+    margin: 50px;
+    text-decoration:underline;
+}
+.abor{
+    border: 2px solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+nav{
+    color: black;
+    position: fixed;
+    background-color: #fff;
+    z-index: 100;
+    width: 100%;
+    height: 100px;
+}
+.container1{
+    width: 95%;
+    height: 100vh;
+    position:relative;
+    color:white;
+    background-image: url(images/HOME_TS11_Hero-KV_1920x1080_pc.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 50px auto;
+}
+.headerlinks1 ul{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    display: flex;
+}
+.adef1 {
+    margin: 50px;
+    text-decoration:underline;
+}
+.abor1{
+    border: 2px solid;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
