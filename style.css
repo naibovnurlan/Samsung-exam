@@ -97,6 +97,7 @@ nav{
     z-index: 100;
     width: 100%;
     height: 100px;
+    border-bottom: 2px solid;
 }
 
 .headerlinks1 ul{
@@ -137,8 +138,16 @@ nav{
     flex-wrap: nowrap;
     margin: 50px auto;
     align-items: flex-start;
-    scrollbar-width: 1px
-    ;
+    scrollbar-width: 1px;
+}
+.container-sec2{
+    width: 95%;
+    height:30vh;
+    color:black ;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin: 50px auto;
 }
 .art{
     flex-shrink: 0;
@@ -296,159 +305,20 @@ h3{
 .column ul li a:hover {
     color: #000;
 }
-.footer {
-    background-color: #fff;
-    padding: 20px 40px;
-    font-size: 12px;
-    color: #666;
-}
 
-.footer-top {
+.li{
+    display: flex;
+    margin-left: 400px;
     text-align: center;
-    margin-bottom: 15px;
+    
 }
-
-.copyright {
-    margin: 0;
-    font-size: 12px;
+.li li a{
+    display: inline-block;
+    margin-left: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+    min-width: 250px;
+    min-height: 80px;
+    background-color: rgb(218, 223, 223);
+    padding-top: 15px;
 }
-
-.footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.footer-left {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items: center;
-}
-
-.footer-left a {
-    color: #666;
-    text-decoration: none;
-    margin: 0 5px;
-}
-
-.footer-left a:hover {
-    color: #000;
-}
-
-.footer-right {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.stay-loop {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: bold;
-}
-
-.social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.social-icons a {
-    color: #666;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.social-icons a:hover {
-    color: #000;
-}
-
-.app-section {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.app-card {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.app-content {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
-.app-text {
-    font-size: 12px;
-    font-weight: bold;
-    color: #333;
-}
-
-.app-subtext {
-    font-size: 10px;
-    color: #666;
-}
-
-.qr-code {
-    width: 30px;
-    height: 30px;
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    color: #999;
-}
-
-.app-badge {
-    background-color: #000;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 4px;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-.samsung-app {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.app-icon {
-    width: 20px;
-    height: 20px;
-    background-color: #007bff; 
-    border-radius: 4px;
-}
-
-.app-text {
-    font-size: 11px;
-    color: #333;
-    font-weight: bold;
-}
-
-
-
-
-
-
-
