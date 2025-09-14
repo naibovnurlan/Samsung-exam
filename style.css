@@ -20,7 +20,7 @@ ul{
     background-size:cover;
     background-repeat: no-repeat;
     display: block;
-    margin: 0px auto;
+    margin: 0px auto 50px auto;
 }
  
 .container .nav1 ul{
@@ -37,27 +37,36 @@ ul{
     top: 60px;
     left: 60px;
     display: flex;
+    padding-bottom: 50px;
 }
 .nav2 ul{
     display: flex;
-    padding-left: 30px;
+    padding-right: 30px;
     font-weight: 700;
 }
 .nav2 ul li{
     padding-left: 30px;
 }
-.nav2 ul li:nth-child(8) {
+.nav3{
+    position: absolute;
+    top: 0px;
+    left:110%;
+    display: flex;
+    
+}
+
+.nav3 ul li:nth-child(1) {
     border: 0.5px solid;
     border-radius: 40px;
-    margin:-10px 0px 0px 230px;
+    margin:-10px 0px 0px 0px;
     padding: 10px 100px 10px 10px;
     font-size: 20px;
-    background-color:rgba(245, 241, 241, 0.2) ;
+    background-color:rgba(223, 218, 218, 0.5) ;
 }
-nav2 ul li:nth-child(9){
+.nav3 ul li:nth-child(2){
     font-size: 20px;
 }
-nav2 ul li:nth-child(10){
+.nav3 ul li:nth-child(3){
     font-size: 20px;
 }
 .sam{
@@ -88,17 +97,7 @@ nav{
     width: 100%;
     height: 100px;
 }
-.container1{
-    width: 95%;
-    height: 100vh;
-    position:relative;
-    color:white;
-    background-image: url(images/HOME_TS11_Hero-KV_1920x1080_pc.webp);
-    background-size:cover;
-    background-repeat: no-repeat;
-    display: block;
-    margin: 50px auto;
-}
+
 .headerlinks1 ul{
     position: absolute;
     top: 600px;
@@ -117,22 +116,90 @@ nav{
 .container-sec{
     width: 95%;
     height: 50vh;
-    position:relative;
     color:black ;
-    display: block;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
     margin: 50px auto;
 }
-.artfirst{
-    position: absolute;
-    width: 20%;
-    height: 80%;
+.art{
+    min-width: 10px;
+    min-height:auto;
     background-color: rgb(239, 238, 235);
     font-size: 2rem;
     text-align: center;
-    
-    
+    flex: 1;
 }
-.artfirst a{
+.art a{
     display: inline-block;
     width: 100%;
+    padding: 20px;
 }
+.nav2li{
+    position: relative;
+}
+
+.dropdown {
+  position: relative;  
+
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  top: 12px;
+  left: -280px;
+  width: 950px;
+  background: #fff;
+  flex-wrap: wrap;
+  gap: 20px;
+  visibility: hidden;
+  opacity: 0;
+  border-right: 1px solid;
+  border-right-style:inset;
+  
+ 
+}
+.menu2{
+  position: absolute;
+  display: flex;
+  top: 9px;
+  left: calc(100% + 1px);
+  width: 520px;
+  background: #fff;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  visibility:hidden;
+  opacity: 0;
+}
+
+
+.artdrop{
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+}
+.artdrop2{
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    /* align-items: center; */
+}
+
+
+
+.nav2li:hover .menu,
+.nav2li:hover .menu .menu2 {
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
